@@ -1,6 +1,19 @@
-# yiiepapi-py
-Python API for Yiiep payment platform
+# yiiepapi-php
+Yiiep payment plateform API for PHP
 
+Yiiep est une plateforme de payement en ligne basée sur le mobile money. Cet API vous permet d'intégrer Yiiep dans votre site web comme solution de payement. L'api génére un qrcode que votre client peut scanner avec [l'appication mobile Yiiep](https://play.google.com/store/apps/details?id=com.numerumservices.yiiep) pour initier le payement.
+
+Visitez [www.yiiep.com](https://www.yiiep.com/) pour en savoir plus.
+
+## Installation
+Cloner / Télécharger et déconpresser le répertoire yiiepapi-php dans votre projet.
+
+## Obtenir un ID d'api pour votre site ou application
+1. [Créer un compte](https://www.yiiep.com/login)
+2. Enregistrez un site marchand
+
+## Utilisation
+Ci dessous un exemple d'utilisation de l'API. Une version fonctionnelle de cet exemple est disponible dans le dossier  [example](../../example).  Pour plus d'information veuillez consulter la documentation.
 
 ```python
 '''Please first edit apiconfig.py to set your app API id an key'''
