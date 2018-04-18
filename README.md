@@ -3,7 +3,7 @@ Python API for Yiiep payment platform
 
 
 ```python
-'''Please first edit config.py to set your app API id an key'''
+'''Please first edit apiconfig.py to set your app API id an key'''
 
 from yiiepapi import YiiepApi
 
