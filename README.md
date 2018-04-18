@@ -6,7 +6,15 @@ Yiiep est une plateforme de payement en ligne basée sur le mobile money. Cet AP
 Visitez [www.yiiep.com](https://www.yiiep.com/) pour en savoir plus.
 
 ## Installation
-Cloner / Télécharger et déconpresser le répertoire yiiepapi-php dans votre projet.
+1. Cloner / Télécharger et déconpresser le répertoire yiiepapi-py dans votre projet.
+2. Installer les dépendances
+
+```sh
+
+cd yiiepapi-py
+python setup.py install
+
+```
 
 ## Obtenir un ID d'api pour votre site ou application
 1. [Créer un compte](https://www.yiiep.com/login)
